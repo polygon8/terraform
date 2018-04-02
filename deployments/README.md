@@ -1,5 +1,11 @@
 Create a deployment directory, e.g. rhagolwg
+
 Go into that directory and copy all the tmpl files, dropping the .tmpl
+```
+backend.tf.tmpl ---> backend.tf
+dynamo_lock_db.tf.tmpl --> dynamo_lock_db.tf
+```
+
 Edit the tmpls so they match your deployment directory
 
 If you don't edit them they should fail with a syntax error.
