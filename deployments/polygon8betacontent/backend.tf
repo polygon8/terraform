@@ -6,7 +6,7 @@ terraform {
     bucket         = "poly8on-tfstate"
     dynamodb_table = "lock-tfstate-polygon8betacontent"
     region         = "eu-west-2"
-    key            = "tfstate/polygon8betacontent.tfstate"
+    key            = "united-terraform-states/polygon8betacontent/terraform.tfstate"
   }
 }
 

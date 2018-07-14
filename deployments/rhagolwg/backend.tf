@@ -6,7 +6,7 @@ terraform {
     bucket         = "poly8on-tfstate"
     dynamodb_table = "lock-tfstate-rhagolwg"
     region         = "eu-west-2"
-    key            = "tfstate/rhagolwg.tfstate"
+    key            = "united-terraform-states/rhagolwg/terraform.tfstate"
   }
 }
 
